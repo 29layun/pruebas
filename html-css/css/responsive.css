@@ -1,0 +1,28 @@
+/* REsponsive 
+----------------------------------------------------------------- */
+/* Escritorios muy grandes */
+@media (min-width: 1200px){
+    .contact-form{
+        width: 40%;
+    }
+}
+/* Tablets en horizontal y escritorios normales */
+@media (min-width: 768px){
+    .contact-form{
+        width: 40%;
+    }
+}
+
+/* moviles en horizntal o tabletas en vertical */
+@media (max-width: 767px){
+    .contact-form{
+        width: 80%;
+    }
+
+}
+/* moviles en vertical */
+@media (max-width: 480px){
+    .contact-form{
+        width: 90%;
+    }
+}
