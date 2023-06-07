@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.contenedor{
+    border: 10px solid #000;
+    height: 500px;
+    display: flex;
+    align-items: stretch;
+    
+}
+.items{
+    font-size: 30px;
+    color: #fff;
+    width: 200px;
+    height: 200px;
+}
+.item1{
+    background: green;
+}
+.item2{
+    background: red;
+}
+.item3{
+    background: blue;
+}
+.item4{
+    background: blueviolet;
+}
