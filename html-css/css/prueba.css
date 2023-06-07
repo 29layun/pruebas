@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Paleta de colores
+    color principal 
+    color: #30391F;
+    Primer color complomentario
+    color. #668A4C;
+    segundo color complementario
+    color. #ACCC78;
+    color oscuro
+    color. #464646;
+    color claro
+    color. #ffffff;
+*/
+body{
+    background: #fff;
+    font-size: 'Lato', sans-serif;
+}
+.i-facebook{
+    width: 100px;
+    height: 100px;
+    background: blue;
+    color: #fff;
+
+}
+.logo {
+    background: blue;
+    color: black;
+}

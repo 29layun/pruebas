@@ -150,3 +150,30 @@ footer .copy{
     font-size: 30px;
     padding: 0 20px 0 20px;
 }
+@media screen and (max-width: 800px){
+    .menu-navegacion{
+        flex-direction: column;
+        height: 120px;
+        justify-content: space-evenly;
+    }
+    .hero h1{
+        font-size: 36px;
+        margin-top: 50px;
+    }
+    .hero p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .boton{
+        margin-bottom: 50px;
+    }
+    .beneficio{
+        margin-bottom: 40px;
+    }
+    .contenedor-imagenes img{
+        width: 90%;
+    }
+    .copy{
+        margin-bottom: 40px;
+    }
+}
