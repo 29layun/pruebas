@@ -1,0 +1,62 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* trasform y transition  */
+/* 
+.contenedor{
+    width: 600px;
+    height: 600px;
+    margin: 20px auto;
+    border: 10px solid #000;
+}
+.item{
+    background: blue;
+    width: 300px;
+    height: 300px;
+    color: #fff;
+    transition: all 0.3s;
+}
+.contenedor:hover .item{
+    transform: rotate(30deg);
+} */
+
+
+/* clip-path */
+
+/* .element{
+    width: 300px;
+    height: 300px;
+    background-image: url(../../img/fondo.jpg);
+    margin: 40px auto;
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    transition: .1s;
+}
+.element:hover {
+    clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
+    transform: scale(2);
+} */
+
+/* Transformacion*/
+
+.caja{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    background: red;
+    font-size: 36px;
+    transition: all .9s;
+
+}
+p{
+    color: white;
+    transition: inherit;
+
+}
+.caja:hover p {
+    background: blue;
+    text-align: center;
+}
+
