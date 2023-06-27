@@ -6,25 +6,35 @@
 :root{
     --Colortitulo: #000;
     --BorderInput: 1px solid #9face6;
-    --BotonFormulario: #9face6;
+    --BotonFormulario: #020927;
 }
 body{
     font-family: 'lato', sans-serif;
     background-color: #74ebd5;
     background-image: linear-gradient(225deg, #74ebd5 0%, #9face6 100%);
 }
+
+#particles-js{
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    z-index: -1;
+}
 .contact-form{
     height: auto;
-    margin: 80px auto;
+    margin: 0 auto;
     border-radius: 20px;
     padding: 30px;
-    background-color: #fbfbfb;
+    background-color: #3fc0e0;
+    position: relative;
+    z-index: 99;
+    opacity: .85;
     -webkit-box-shadow: 0px 0px 14px -1px rgba(113,127,193,1);
     -moz-box-shadow: 0px 0px 14px -1px rgba(113,127,193,1);
     box-shadow: 0px 0px 14px -1px rgba(113,127,193,1);
 }
 input{
-    background-color: #fbfbfb;
+    background-color: #7bb0f7;
     width: 100%;
     height: 45px;
     border-radius: 20px;
@@ -34,7 +44,7 @@ input{
     margin-bottom: 15px;
 }
 textarea{
-    background-color: #fbfbfb;
+    background-color: #7bb0f7;
     width: 100%;
     height: 150px;
     border-radius: 20px;
