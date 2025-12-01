@@ -1,4 +1,4 @@
-# Bienvenidos a mi proyect de pruebas con colaboradores 
+# Bienvenidos a mi proyecto de pruebas con mis colaboradores 
 
 **Cada archivo de la carpeta html contendra su respectiva imagen de muestra para visualizar los resultados de los ejercicios**
 
